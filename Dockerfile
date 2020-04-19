@@ -1,5 +1,5 @@
 FROM centos:7
-#FROM centos:7
+
 MAINTAINER <zhangpengzhan456@126.com>
 
 ADD assets /assets
