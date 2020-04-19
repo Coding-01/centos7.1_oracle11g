@@ -1,5 +1,7 @@
 docker run --privileged --name oracle11g-t -p 1521:1521 -v /install:/install zhangpengzhan456/centos7.1_oracle11g:v1
 
+如果想直接访问可使用-it选项,或者使用-d让它在后台运行
+
 docker ps -a
 
 docker exec -it <CONTAINER_ID> /bin/bash
