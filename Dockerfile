@@ -4,8 +4,7 @@ MAINTAINER <zhangpengzhan456@126.com>
 
 ADD assets /assets
 
-RUN chmod -R 755 /assets
-RUN /assets/setup.sh
+RUN chmod -R 755 /assets && /assets/setup.sh
 
 EXPOSE 1521
 EXPOSE 8080
